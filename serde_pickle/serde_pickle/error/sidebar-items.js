@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Error","This type represents all possible errors that can occur when serializing or deserializing a value."],["ErrorCode",""]],"type":[["Result",""]]});
