@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IterRead","An adapter that allows treating iterators of bytes (and other types that implement `IterReadItem`) as a `Read`."]],"trait":[["IterReadItem","Trait that should be implemented for any type which can be used in an iterator given to `IterRead`."]]});
