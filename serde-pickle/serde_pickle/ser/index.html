@@ -9,8 +9,10 @@
 
     <title>serde_pickle::ser - Rust</title>
 
+    <link rel="stylesheet" type="text/css" href="../../normalize.css">
     <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
     <link rel="stylesheet" type="text/css" href="../../main.css">
+    
 
     
     
@@ -43,54 +45,56 @@
 
     <section id='main' class="content mod">
 <h1 class='fqn'><span class='in-band'>Module <a href='../index.html'>serde_pickle</a>::<wbr><a class='mod' href=''>ser</a></span><span class='out-of-band'><span id='render-detail'>
-            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
-                [<span class='inner'>&#x2212;</span>]
-            </a>
-        </span><a id='src-12' class='srclink' href='../../src/serde_pickle/src/ser.rs.html#7-500' title='goto source code'>[src]</a></span></h1>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../../src/serde_pickle/ser.rs.html#7-641' title='goto source code'>[src]</a></span></h1>
 <div class='docblock'><p>Pickle serialization</p>
 </div><h2 id='structs' class='section-header'><a href="#structs">Structs</a></h2>
 <table>
-                    <tr class=' module-item'>
-                        <td><a class='struct' href='struct.Serializer.html'
-                               title='serde_pickle::ser::Serializer'>Serializer</a></td>
-                        <td class='docblock short'>
-                             <p>A structure for serializing Rust values into a Pickle stream.</p>
-                        </td>
-                    </tr>
-                </table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Compound.html'
+                                  title='serde_pickle::ser::Compound'>Compound</a></td>
+                           <td class='docblock-short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='struct' href='struct.Serializer.html'
+                                  title='serde_pickle::ser::Serializer'>Serializer</a></td>
+                           <td class='docblock-short'>
+                                <p>A structure for serializing Rust values into a Pickle stream.</p>
+                           </td>
+                       </tr></table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
 <table>
-                    <tr class=' module-item'>
-                        <td><a class='fn' href='fn.to_vec.html'
-                               title='serde_pickle::ser::to_vec'>to_vec</a></td>
-                        <td class='docblock short'>
-                             <p>Encode the specified struct into a <code>Vec&lt;u8&gt;</code> buffer.</p>
-                        </td>
-                    </tr>
-                
-                    <tr class=' module-item'>
-                        <td><a class='fn' href='fn.to_writer.html'
-                               title='serde_pickle::ser::to_writer'>to_writer</a></td>
-                        <td class='docblock short'>
-                             <p>Encode the specified struct into a <code>[u8]</code> writer.</p>
-                        </td>
-                    </tr>
-                
-                    <tr class=' module-item'>
-                        <td><a class='fn' href='fn.value_to_vec.html'
-                               title='serde_pickle::ser::value_to_vec'>value_to_vec</a></td>
-                        <td class='docblock short'>
-                             <p>Encode the value into a <code>Vec&lt;u8&gt;</code> buffer.</p>
-                        </td>
-                    </tr>
-                
-                    <tr class=' module-item'>
-                        <td><a class='fn' href='fn.value_to_writer.html'
-                               title='serde_pickle::ser::value_to_writer'>value_to_writer</a></td>
-                        <td class='docblock short'>
-                             <p>Encode the value into a pickle stream.</p>
-                        </td>
-                    </tr>
-                </table></section>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.to_vec.html'
+                                  title='serde_pickle::ser::to_vec'>to_vec</a></td>
+                           <td class='docblock-short'>
+                                <p>Encode the specified struct into a <code>Vec&lt;u8&gt;</code> buffer.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.to_writer.html'
+                                  title='serde_pickle::ser::to_writer'>to_writer</a></td>
+                           <td class='docblock-short'>
+                                <p>Encode the specified struct into a <code>[u8]</code> writer.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.value_to_vec.html'
+                                  title='serde_pickle::ser::value_to_vec'>value_to_vec</a></td>
+                           <td class='docblock-short'>
+                                <p>Encode the value into a <code>Vec&lt;u8&gt;</code> buffer.</p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.value_to_writer.html'
+                                  title='serde_pickle::ser::value_to_writer'>value_to_writer</a></td>
+                           <td class='docblock-short'>
+                                <p>Encode the value into a pickle stream.</p>
+                           </td>
+                       </tr></table></section>
     <section id='search' class="content hidden"></section>
 
     <section class="footer"></section>
@@ -113,6 +117,8 @@
                     <dd>Move down in search results</dd>
                     <dt>&#9166;</dt>
                     <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
                 </dl>
             </div>
 
@@ -144,11 +150,9 @@
     <script>
         window.rootPath = "../../";
         window.currentCrate = "serde_pickle";
-        window.playgroundUrl = "";
     </script>
     <script src="../../jquery.js"></script>
     <script src="../../main.js"></script>
-    
     <script defer src="../../search-index.js"></script>
 </body>
 </html>

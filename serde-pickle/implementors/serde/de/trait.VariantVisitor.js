@@ -1,5 +1,5 @@
 (function() {var implementors = {};
-implementors['serde_pickle'] = ["impl&lt;Iter&gt; <a class='trait' href='https://serde-rs.github.io/serde/serde/serde/de/trait.VariantVisitor.html' title='serde::de::VariantVisitor'>VariantVisitor</a> for <a class='struct' href='serde_pickle/de/struct.Deserializer.html' title='serde_pickle::de::Deserializer'>Deserializer</a>&lt;Iter&gt; <span class='where'>where Iter: <a class='trait' href='https://doc.rust-lang.org/nightly/core/iter/trait.Iterator.html' title='core::iter::Iterator'>Iterator</a>&lt;Item=<a class='type' href='https://doc.rust-lang.org/nightly/std/io/error/type.Result.html' title='std::io::error::Result'>Result</a>&lt;<a class='primitive' href='https://doc.rust-lang.org/nightly/std/primitive.u8.html'>u8</a>&gt;&gt;</span>",];
+implementors["serde_pickle"] = ["impl&lt;'a&gt; <a class='trait' href='https://docs.serde.rs/serde/de/trait.VariantVisitor.html' title='serde::de::VariantVisitor'>VariantVisitor</a> for &amp;'a mut Deserializer",];
 
             if (window.register_implementors) {
                 window.register_implementors(implementors);
